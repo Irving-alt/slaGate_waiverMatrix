@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-02-16",
+  "ignore_future_detected": true,
+
+  "sla_days_by_severity": { "P0": 7, "P1": 14, "P2": 21, "P3": 30 },
+  "severity_points": { "P0": 8, "P1": 5, "P2": 3, "P3": 1 },
+
+  "blocked_bonus": 10,
+  "overdue_bonus_per_day": 1,
+  "overdue_cap_days": 14,
+
+  "waiver_applies_to": ["P0", "P1"],
+  "waiver_inclusive": true
+}
