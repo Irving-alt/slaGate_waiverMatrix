@@ -1,0 +1,16 @@
+{
+  "services": [
+    { "service": "auth-api", "tier": "Tier0", "owner": "Alicia Park" },
+    { "service": "billing-svc", "tier": "Tier0", "owner": "Ben Chen" },
+    { "service": "search-core", "tier": "Tier0", "owner": "Marco Silva" },
+
+    { "service": "checkout-web", "tier": "Tier1", "owner": "Ben Chen" },
+    { "service": "inventory", "tier": "Tier1", "owner": "Dina Iqbal" },
+    { "service": "media-cdn", "tier": "Tier1", "owner": "Marco Silva" },
+
+    { "service": "analytics-pipeline", "tier": "Tier2", "owner": "Alicia Park" },
+    { "service": "recommend-engine", "tier": "Tier2", "owner": "Dina Iqbal" },
+    { "service": "support-portal", "tier": "Tier2", "owner": "Alicia Park" },
+    { "service": "user-profile", "tier": "Tier2", "owner": "Marco Silva" }
+  ]
+}
